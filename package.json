@@ -5,7 +5,8 @@
   "type": "module",
   "license": "ISC",
   "scripts": {
-    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "start dev": "nodemon index.js",
     "data:import": "node utils/seederScript.js"
   },
   "dependencies": {
